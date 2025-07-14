@@ -1,67 +1,69 @@
 
-# 📄 Intelligent Research Companion  
-
-An **AI-powered research assistant** for summarizing documents, answering questions, and evaluating comprehension with interactive quizzes. Built using **Streamlit, HuggingFace Transformers, and FAISS**.
-
-<div align="center">
-  
-![Badge](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
-![Badge](https://img.shields.io/badge/Streamlit-%E2%9D%A4-red?style=flat-square)
-![Badge](https://img.shields.io/badge/Status-Active-green?style=flat-square)
-  
-</div>  
+# 📄 **Intelligent Research Companion**  
+An AI-powered research assistant for summarizing documents, answering questions, and evaluating comprehension through interactive quizzes.  
+Built using **Streamlit**, **HuggingFace Transformers**, and **FAISS** for modern research workflows.
 
 ---
 
 ## ✨ **Key Features**
-✅ Upload PDF or TXT files  
-✅ Auto-generate concise summaries  
-✅ "Ask Anything" Q&A mode with context-grounded answers  
-✅ "Challenge Me" quiz mode with AI evaluation  
-✅ Clean, modern, responsive UI with contrasting colors  
+| Feature | Description |
+|:--------|:------------|
+| 📁 **File Upload** | Upload `.pdf` or `.txt` documents easily |
+| ✂️ **Auto Summarization** | Generates concise summaries for quick understanding |
+| 💬 **Ask Anything (Q&A)** | Contextual answers from your uploaded document |
+| 🧩 **Challenge Me (Quiz)** | Evaluate your understanding through AI-generated quizzes |
+| 🎨 **Modern UI** | Clean, pastel-inspired, responsive design with improved contrast |
 
 ---
 
-## 📷 **UI Preview**  
-| Summary | Q&A | Challenge |
-|---|---|---|
-| ![Summary](https://via.placeholder.com/300x100.png?text=Summary+Box) | ![QA](https://via.placeholder.com/300x100.png?text=Q%26A+Mode) | ![Challenge](https://via.placeholder.com/300x100.png?text=Challenge+Mode) |
+## 📽️ **Demo Video**
+
+[![Watch the Demo](https://via.placeholder.com/600x300.png?text=Click+to+Watch+Demo)](https://drive.google.com/file/d/1wrA253xXcY9X6WGJPww2QI48NxgIqN_B/view?usp=drive_link)
+
+➡️ **Click the image above** to view the demo video on Google Drive.
 
 ---
 
 ## 🛠️ **Tech Stack**
-- **Python 3.11**
-- **Streamlit 1.46**
-- HuggingFace Transformers (FLAN-T5)
-- SentenceTransformers (MiniLM)
-- FAISS (Vector Store)
-- NLTK (Preprocessing)
+| Technology            | Purpose                    |
+|------------------------|-----------------------------|
+| 🐍 **Python 3.11**      | Core language               |
+| 🚀 **Streamlit 1.46**    | Web App Framework           |
+| 🤗 **HuggingFace FLAN-T5** | Text-based reasoning model  |
+| 🧠 **SentenceTransformers MiniLM** | Semantic Similarity Embedding |
+| 🔍 **FAISS**            | Document Vector Store        |
+| 📄 **NLTK**              | Text Tokenization / Preprocessing |
 
 ---
 
-## 🚀 **How to Run Locally**
+## 🚀 **How to Set Up & Deploy**
+> ✅ **Follow these simple steps to run locally & push to GitHub**
 
-### 1️⃣ Clone the Repository  
+### **1️⃣ Clone the Repository**
 ```bash
 git clone https://github.com/YOUR_USERNAME/intelligent-research-companion.git
 cd intelligent-research-companion
 ```
 
-### 2️⃣ Create & Activate Virtual Environment (Recommended)  
+### **2️⃣ Create & Activate Virtual Environment**
 ```bash
 python -m venv venv
-# On Windows:
+```
+**On Windows:**
+```bash
 venv\Scripts\activate
-# On Mac/Linux:
+```
+**On Mac/Linux:**
+```bash
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Dependencies  
+### **3️⃣ Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the App  
+### **4️⃣ Run the App**
 ```bash
 streamlit run app.py
 ```
@@ -69,11 +71,6 @@ streamlit run app.py
 ---
 
 ## 📝 **How to Push on New GitHub Repo**
-
-### **Step-by-step:**
-
-1️⃣ **Create a new repo** on GitHub (without README).  
-2️⃣ In your local project folder:  
 ```bash
 git init
 git add .
@@ -86,14 +83,13 @@ git push -u origin main
 ---
 
 ## 🔖 **Repository Tags (Recommended for GitHub)**
-
 ```
 streamlit, ai, llm, nlp, research-assistant, document-summarization, question-answering, langchain, huggingface, faiss, educational, pdf-ai, summarization
 ```
 
 ---
 
-## 🙌 **Credits**
+## 🙌 **Credits**  
 Built with ❤️ by **Harshit Srivastava**  
 📧 harshitsrivastava170@gmail.com  
 [🐙 GitHub](https://github.com/Harshitsri170) &nbsp;|&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/harshit-srivastava-ai)
